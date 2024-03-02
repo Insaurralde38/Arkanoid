@@ -1,0 +1,45 @@
+body {
+    background-color: #111;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 4px solid #fff;
+    border-bottom: transparent;
+    background: url('./images/bkg.png');
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: rgb(107, 114, 128);
+    font-size: 0.8rem;
+    padding: 10px;
+    width: 100vw;
+}
+
+.author {
+    position: relative;
+    font-style: italic;
+    font-weight: 600;
+}
+
+a {
+    color: rgb(107, 114, 128);
+    text-decoration: none;
+}
+
+img {
+    margin-bottom: 4px;
+}
